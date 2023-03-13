@@ -19,3 +19,6 @@ div.append(h1, p);
 div.style.border = '1px solid black';
 div.style.backgroundColor = 'pink';
 body.append(div);
+
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
