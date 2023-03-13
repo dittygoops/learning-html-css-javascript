@@ -22,3 +22,7 @@ body.append(div);
 
 const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello World");
+const btn2 = document.querySelector('#other-button');
+btn2.addEventListener('click', () => {
+    alert("Hello World");
+})
